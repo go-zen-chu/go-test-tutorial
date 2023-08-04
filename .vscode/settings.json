@@ -1,0 +1,7 @@
+{
+    "go.coverOnSave": true,
+    "go.testFlags": [
+        "-v",
+        "-coverpkg=all"
+    ]
+}
