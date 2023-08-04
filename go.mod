@@ -1,3 +1,3 @@
-module github.com/go-zen-chu/golang-template
+module github.com/go-zen-chu/go-test-tutorial
 
-go 1.17
+go 1.19
