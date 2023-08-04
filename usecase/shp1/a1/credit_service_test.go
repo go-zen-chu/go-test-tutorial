@@ -2,6 +2,7 @@ package shp1
 
 import "testing"
 
+// CAUTION: THIS TEST IS ACTUALLY DO TRANSACTION
 func TestCreditService_DoTransaction(t *testing.T) {
 	type args struct {
 		priceYen int
@@ -16,7 +17,8 @@ func TestCreditService_DoTransaction(t *testing.T) {
 			name: "it should work",
 			c:    NewCreditService(),
 			args: args{
-				priceYen: 10000,
+				// change price (once test is succeeded, it will cache)
+				priceYen: 1000,
 			},
 			wantErr: false,
 		},
