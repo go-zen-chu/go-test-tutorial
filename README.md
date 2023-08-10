@@ -7,7 +7,7 @@ Go test tutorial repository.
 
 ```bash
 # this command has bug
-$ go run cmd/shp1
+$ go run ./cmd/shp1
 # try debugging
 
 # for not VSCode user
@@ -17,6 +17,6 @@ $ go install github.com/cweill/gotests/...
 $ gotests -all -w credit_service.go 
 
 # this command also has bug
-$ go run cmd/shp2
+$ go run ./cmd/shp2
 # try debugging too
 ```
