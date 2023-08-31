@@ -5,7 +5,7 @@ import "log"
 type mockCreditService struct{}
 
 func NewMockCreditService() CreditService {
-	return &creditService{}
+	return &mockCreditService{}
 }
 
 func (c *mockCreditService) DoTransaction(priceYen int) error {
